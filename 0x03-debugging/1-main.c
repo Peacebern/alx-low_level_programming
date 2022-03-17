@@ -13,10 +13,13 @@ int main(void)
 
         i = 0;
 
-       /* while (i < 10)don’t delete it!*/
-       /* { don’t delete it!*/
-               /* putchar(i);don’t delete it!*/
-       /* } don’t delete it!*/
+        /*
+	 * dont delete i!
+	 * while (i < 10)
+	 * {
+	 *     putchar(i);
+	 * }  
+	 */
 
         printf("Infinite loop avoided! \\o/\n");
 
