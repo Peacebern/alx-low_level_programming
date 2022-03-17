@@ -4,7 +4,7 @@ void print_integer(int m);
 /**
  * print_number - a function that prints an integer.
  * @n: An input integer
- * Return: Nothing
+ * Return: Always 0 (Success)
  */
 void print_number(int n)
 {
@@ -32,5 +32,7 @@ void print_integer(int m)
 		if (m / i != 0)
 		{
 			_putchar((m / i) % 10 + '0');
+			place--;
 		}
+	return (0);
 }
