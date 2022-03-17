@@ -7,11 +7,9 @@
 
 int main(void)
 {
-        int i;
+        int i = 0;
 
         printf("Infinite loop incoming :(\n");
-
-        i = 0;
 
 	/**
 	 * don't delete it!
@@ -25,3 +23,4 @@ int main(void)
 
         return (0);
 }
+
