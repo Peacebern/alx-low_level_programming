@@ -8,7 +8,6 @@ void print_integer(int m);
  */
 void print_number(int n)
 {
-	div = m / i;
 	if (n == 0) 
 		_putchar('0');
 	
@@ -36,4 +35,6 @@ void print_integer(int m)
 		{
 			_putchar((m / i) % 10 + '0');
 		}
+
+	return (0);
 }
