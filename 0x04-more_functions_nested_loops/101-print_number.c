@@ -8,17 +8,15 @@ void print_integer(int m);
  */
 void print_number(int n)
 {
-	if (n == 0) 
+	if (n == 0)
 		_putchar('0');
-	
 	else if (n < 0)
 	{
 		_putchar('-');
 		print_integer(n * -1);
 	}
-	else 
+	else
 		print_integer(n);
-	
 }
 
 /**
@@ -35,6 +33,4 @@ void print_integer(int m)
 		{
 			_putchar((m / i) % 10 + '0');
 		}
-
-	return (0);
 }
