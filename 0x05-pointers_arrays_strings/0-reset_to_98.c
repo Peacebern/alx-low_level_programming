@@ -1,18 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code 
+ * reset_to_98 - a function that takes a pointer to an int and update it
  *
- * Return: Always 0.
+ * @n: integer pointer variable
+ *
+ * Return: Always 0
  */
-int main(void)
-{
-    int n;
 
-    n = 402;
-    printf("n=%d\n", n);
-    reset_to_98(&n);
-    printf("n=%d\n", n);
-    return (0);
+void reset_to_98(int *n)
+{
+	*n = 98;
 }
