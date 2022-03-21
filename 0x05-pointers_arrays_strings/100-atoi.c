@@ -24,4 +24,5 @@ int i, j, n, x;
 		n = (n * 10) + x * ((s[j]) - '0');
 		j++;
 	}
-	return (n)
+	return (n);
+}	
