@@ -10,6 +10,6 @@ void _print_rev_recursion(char *s)
 	if (*s != '\0')
 	{
 		_print_rev_recursion(s + 1);
-		_putchar(*s);
+		_putchar(*s); /* we put this after calling the function is because if we had put it before calling the function it would have printed the string but not in reverse */
 	}
 }
