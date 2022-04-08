@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 	int num1, num2, mul;
 	char cn[6];
 	char ch = 'E';
-	char *p;
+	int i;
 
 	if (argc != 3)
 	{
@@ -34,10 +34,14 @@ int main(int argc, char **argv)
 		
 		sprintf(cn, "%d", mul);
 	
-		
-		p = cn;
+		for (i = 0; i < 3; i++)
+		{
 
-		_putchar(p[0]);
+		
+
+		_putchar(cn[i]);
+		}
+
 
 
 		return (0);
