@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,19 +10,32 @@
  */
 int main(int argc, char **argv)
 {
-	int num1, num2, result;
+	int num1, num2, mul;
+	char cn;
+	char *ch[6] = {'E', 'r', 'r', 'o', 'r', '\0'};
 
 	if (argc != 3)
 	{
-		printf("Error\n");
+		_putchar(ch);
+		
 		exit(98);
 	}
 	else
 	{
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[2]);
-		result = num1 * num2;
-		printf("%d\n", result);
+
+		printf("%d", num1);
+		printf("%d", num2);
+
+
+		mul = num1 * num2;
+
+		cn = mul + '0';
+		_putchar(cn);
+		
+
+
 		return (0);
 	}
-}
+
