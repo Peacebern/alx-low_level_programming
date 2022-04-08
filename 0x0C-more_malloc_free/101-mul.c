@@ -24,6 +24,14 @@ int main(int argc, char **argv)
 		}
 		exit(98);
 	}
+	else if (!(atoi(argv[1])) || !(atoi(argv[2])))
+	{
+		for (r = 0; r < 7; r++)
+		{
+			_putchar(ch[r]);
+		}
+		exit(98);
+	}			
 	else
 	{
 		num1 = atoi(argv[1]);
