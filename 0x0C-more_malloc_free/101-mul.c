@@ -31,7 +31,7 @@ int main(int argc, char **argv)
 			_putchar(ch[r]);
 		}
 		exit(98);
-	}			
+	}
 	else
 	{
 		num1 = atoi(argv[1]);
