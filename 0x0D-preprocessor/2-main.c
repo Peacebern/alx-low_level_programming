@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main: prints name of the file it was compiled on
- * Return: 0 Always (Success)
+ * main - prints name of file it was compiled from
+ * Return: 0 (Always)
  */
 
 int main(void)
 {
-	printf("%s\n", _FILE_);
+	printf("%s\n", __FILE__);
 
-	Return (0);
+	return (0);
 }
