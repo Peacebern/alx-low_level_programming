@@ -18,6 +18,3 @@ An introductory project on:
 **[2-print_strings.c](2-print_strings.c)** - function that prints strings, followed by a new line.
 
 **[3-print_all.c](3-print_all.c)** - function that prints anything.
-
-### Advanced
-**[100-hello_holberton.asm](100-hello_holberton.asm)** - 64-bit program in assembly that prints `Hello, Holberton`, followed by a new line.
